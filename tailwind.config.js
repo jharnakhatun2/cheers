@@ -3,18 +3,22 @@ module.exports = {
   darkMode: ["class"],
   content: ["app/**/*.{ts,tsx}", "components/**/*.{ts,tsx}"],
   theme: {
+    screens: {
+      xs: "250px",
+      sm: "390px",
+      md: "650px",
+    },
     container: {
       center: true,
-      padding: "2rem",
+      padding: "0.25rem",
       screens: {
-        xm: "250px",
-        sm: "390px",
-        md: "650px",
+        md: "700px",
       },
     },
     extend: {
       fontFamily: {
         poppins: "var(--poppins)",
+        bowlby: "var(--bowlby)",
         inter: "var(--inter)",
       },
       fontSize: {
