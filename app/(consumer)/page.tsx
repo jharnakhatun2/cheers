@@ -12,6 +12,7 @@ export default function Home() {
       //   backgroundPosition: "center",
       // }}
     >
+      <h1>This is image</h1>
       <Image
         className="object-cover w-full h-full"
         src="/assets/images/Landing Page.png"
