@@ -7,7 +7,7 @@
     --background: 0 0% 0%;
     --foreground: 215 33% 26%;
 
-    --muted: var(--background);
+    --muted: 0 0% 79%;
     --muted-foreground: 215 33% 26%;
 
     --primary: 172 64% 60%;
@@ -19,10 +19,13 @@
     --yellow: 55 100% 50%;
     --yellow-foreground: var(--foreground);
 
+    --gray: 0 0% 20%;
+    --gray-foreground: var(--foreground);
+
     --accent: 0 0% 27%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
-    --border: var(--primary);
+    --border: var(--secondary);
   }
 
   .dark {

@@ -22,8 +22,9 @@ module.exports = {
         inter: "var(--inter)",
       },
       fontSize: {
-        sm: "0.625rem",
-        base: "0.75rem",
+        xs: "0.625rem",
+        sm: "0.75rem",
+        base: "0.875rem",
         lg: "0.9375rem",
         xl: "1.125rem",
         "2xl": "1.5rem",
@@ -44,6 +45,10 @@ module.exports = {
         yellow: {
           DEFAULT: "hsl(var(--yellow))",
           foreground: "hsl(var(--yellow-foreground))",
+        },
+        gray: {
+          DEFAULT: "hsl(var(--gray))",
+          foreground: "hsl(var(--gray-foreground))",
         },
         muted: {
           DEFAULT: "hsl(var(--muted))",
