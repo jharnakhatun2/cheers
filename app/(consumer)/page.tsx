@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -16,9 +17,12 @@ export default function Home() {
           <br />
           at the bar
         </h1>
-        <button className="px-5 py-1 text-xl rounded-lg bg-secondary text-background font-poppins font-semibold">
+        <Link
+          href="/login"
+          className="px-5 py-1 text-xl rounded-lg bg-secondary text-background font-poppins font-semibold"
+        >
           Login / Register
-        </button>
+        </Link>
       </div>
     </div>
   );

@@ -26,8 +26,13 @@ export default function RegisterCode() {
         Please enter the 4-digit security code we sent to your mobile phone to
         register
       </p>
-      <div className="bg-gray w-full py-5 rounded-lg">
-        <input type="text" />
+      <div className="col-span-full">
+        <input
+          id="text"
+          type="text"
+          placeholder=""
+          className="w-full rounded-lg focus:outline-none bg-gray text-muted p-4 text-sm mt-2"
+        />
       </div>
       <div className="flex items-center gap-5 pt-10">
         <svg

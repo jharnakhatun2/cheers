@@ -24,7 +24,7 @@ const data: ComType[] = [
 
 export default function Checkout() {
   return (
-    <section>
+    <section className="h-screen">
       <div className="relative">
         <Image
           className=""

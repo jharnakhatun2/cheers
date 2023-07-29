@@ -2,7 +2,7 @@
 import React from "react";
 import * as Tabs from "@radix-ui/react-tabs";
 import Image from "next/image";
-import Profile from "@/app/(consumer)/[profile]/page";
+import Profile from "@/app/(consumer)/profile/page";
 
 interface CompType {
   icon: string;
